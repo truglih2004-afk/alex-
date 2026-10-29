@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 8px;
+    font-family: Arial, sans-serif;
+    background: transparent;
+  }
+
+  .logo-row {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    flex-wrap: wrap;
+  }
+
+  .logo-link {
+    width: 20px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: transform 0.2s ease,
+                opacity 0.2s ease;
+  }
+
+  .logo-link:hover {
+    transform: translateY(-3px) scale(1.12);
+    opacity: 0.75;
+  }
+
+  .logo-link img {
+    display: block;
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+  }
+
+  .logo-link:focus-visible {
+    outline: 2px solid #888;
+    outline-offset: 3px;
+  }
+</style>
+</head>
+<body>
+
+<nav class="logo-row" aria-label="Quick links">
+
+  <a class="logo-link" href="https://slack.com"
+     target="_blank" rel="noopener noreferrer"
+     title="Slack">
+    <img src="https://cdn.simpleicons.org/slack/4A154B"
+         alt="Slack">
+  </a>
+
+  <a class="logo-link" href="https://github.com"
+     target="_blank" rel="noopener noreferrer"
+     title="GitHub">
+    <img src="https://cdn.simpleicons.org/github/181717"
+         alt="GitHub">
+  </a>
+
+  <a class="logo-link" href="https://mail.google.com"
+     target="_blank" rel="noopener noreferrer"
+     title="Gmail">
+    <img src="https://cdn.simpleicons.org/gmail/EA4335"
+         alt="Gmail">
+  </a>
+
+  <a class="logo-link" href="https://drive.google.com"
+     target="_blank" rel="noopener noreferrer"
+     title="Google Drive">
+    <img src="https://cdn.simpleicons.org/googledrive/34A853"
+         alt="Google Drive">
+  </a>
+
+  <a class="logo-link" href="https://outlook.office.com"
+     target="_blank" rel="noopener noreferrer"
+     title="Outlook">
+    <img src="https://cdn.simpleicons.org/microsoftoutlook/0078D4"
+         alt="Outlook">
+  </a>
+
+  <a class="logo-link" href="https://trello.com"
+     target="_blank" rel="noopener noreferrer"
+     title="Trello">
+    <img src="https://cdn.simpleicons.org/trello/0052CC"
+         alt="Trello">
+  </a>
+
+  <a class="logo-link" href="https://www.notion.so"
+     target="_blank" rel="noopener noreferrer"
+     title="Notion">
+    <img src="https://cdn.simpleicons.org/notion/000000"
+         alt="Notion">
+  </a>
+
+  <a class="logo-link" href="https://www.adobe.com/acrobat/pdf-reader.html"
+     target="_blank" rel="noopener noreferrer"
+     title="PDF Reader">
+    <img src="https://cdn.simpleicons.org/adobeacrobatreader/EC1C24"
+         alt="Adobe Acrobat Reader">
+  </a>
+
+</nav>
+
+</body>
+</html>
